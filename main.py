@@ -18,6 +18,6 @@ User = ("@Your twitter username") # This variable hold the username or the user-
 print("Getting tweets ids and unliking! ")
 
 # Cursor is the search method this search query will return 20 of the users latest  just like the php api you referenced
-for favorite in tweepy.Cursor(api.favorites, id=User).items(1):
+for favorite in tweepy.Cursor(api.favorites, id=User).items(1): #in item() you can change the number that's how many ids the bot will get print and unlike
     print(favorite.id)
     api.destroy_favorite(favorite.id)
