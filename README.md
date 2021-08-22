@@ -14,4 +14,4 @@ The first requirement is you need a twitter account then a twitter developer acc
 Then configuration is pretty easy go to `main.py` replace each key and token where it says paste here, after that just add your twitter username where it says paste you username here.
 
 ## Conclusion
-You should start the bot with python and everything should work just fine, We hope you can help use improve. Have a nice day! Stay Safe!
+You should start the bot with python and everything should work just fine, Twitter have rate limits make sure yu look out for them. We hope you can help use improve. Have a nice day! Stay Safe!
